@@ -1,3 +1,5 @@
+# Run it as Admin, Firewall logging must be already enabled in order for this to work.
+
 function Get-WindowsFirewallLog {
     param(
         [parameter(Position=0,Mandatory=$false)]
